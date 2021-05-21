@@ -63,7 +63,7 @@ def birthday(message):
 #     bot.send_message(message.chat.id, message.text)
 
 # RUN
-bot.polling(none_stop=True)
+# bot.polling(none_stop=True)
 
 
 
