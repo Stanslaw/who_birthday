@@ -43,11 +43,11 @@ def bd_info():
         telegram_text += date_in_verb + " - " + row.FIO + yubiley + "\n"
         # print(row)
 
-    print(telegram_text)
+    # print(telegram_text)
 
     return telegram_text
 
-bd_info()
+# bd_info()
 
 @bot.message_handler(commands=['DR'])
 def birthday(message):
@@ -63,7 +63,7 @@ def birthday(message):
 #     bot.send_message(message.chat.id, message.text)
 
 # RUN
-# bot.polling(none_stop=True)
+bot.polling(none_stop=True)
 
 
 
